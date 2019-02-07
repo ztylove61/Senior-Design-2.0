@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(home.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.main-nav li{
+    display: inline-block;
+}
+
+.main-nav li a{
+    color: white;
+    text-decoration: aquamarine;
+    padding: 5px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.main-nav li.active a{
+    border: 1px solid aqua;
+    color: aqua;
+    font-size: 40px;
+}
+
+.main-nav li a:hover{
+    border: 1px solid aqua;
+    color: aqua;
+    font-size: 40px;
+    transition: all 2s;
+}
+
+.logo img{
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.row{
+    max-width: 1500px;
+    margin: auto;
+}
+

@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(home.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.main-nav li{
+    display: inline-block;
+}
+
+.main-nav li a{
+    color: white;
+    text-decoration: aquamarine;
+    padding: 5px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.main-nav li.active a{
+    border: 1px solid aqua;
+    color: aqua;
+    font-size: 40px;
+}
+
+.main-nav li a:hover{
+    border: 1px solid aqua;
+    color: aqua;
+    font-size: 40px;
+    transition: all 2s;
+}
+
+.logo img{
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.loginbox{
+    width:320px;
+    height: 420px;
+    background: #000;
+    color:#fff;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding:70px 30px;
+}
+
+.avatar{
+    margin-top: 150px;
+    margin-left: 70px;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50%;
+    left: calc(50%,-50%);
+}
+
+h1{
+   margin:0;
+   padding:0 0 20px;
+   text-align: center;
+   font-size: 22px; 
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline:none;
+    height: 40px;
+    color:#fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color:#000;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color:darkgray;
+}
+
+.row{
+    max-width: 1500px;
+    margin: auto;
+}
