@@ -1,6 +1,6 @@
 <?php
 session_start();
-$con = mysqli_connect('localhost','root','');
+$con = mysqli_connect('localhost','root','password');
 mysqli_select_db($con,'epic');
 $name = $_POST['user'];
 $pass = $_POST['password'];
